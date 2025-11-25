@@ -10,6 +10,8 @@
  * 5. 언마운트: fusermount3 -u /tmp/fuse_mnt
  */
 
+ /*코드를 수정함*/
+
 #define FUSE_USE_VERSION 31
 
 #include <fuse.h>
